@@ -19,7 +19,7 @@ class Candidate:
 
     def why_becode(self):
         """
-        Explique la logique derrière le choix de BeCode.
+        Explains the logic behind choosing BeCode.
         """
         reason = (
             "I have self-taught the syntax (Hard Skills), but I need the "
@@ -45,11 +45,11 @@ class Candidate:
 
 # --- MAIN EXECUTION ---
 if __name__ == "__main__":
-    # Instancie la candidate
-    chaska = Candidate(
+    # Moi, la candidate <BeCode>
+    becode_candidate = Candidate(
         name="Mathilde",
         background="Political Analyst & Systems Thinker (City of Brussels)",
         goal="To Humanize Tech as a Data Engineer / Analyst"
     )
     
-    chaska.run_application()
+    becode_candidate.run_application()
