@@ -9,7 +9,7 @@ class Candidate:
 
     def pitch(self):
         # Affiche le nom et le statut
-        print(f"👋 Hello World! I am {self.name}.")
+        print(f"👋 Hello <BeCode> recruitment team! I am {self.name}.")
         print(f"🚀 Current Status: {self.status}")
         print("-" * 50)
         # Affiche le contexte et l'objectif
@@ -19,7 +19,7 @@ class Candidate:
 
     def why_becode(self):
         """
-        Explains the logic behind choosing BeCode.
+        Explique pourquoi j'ai choisi BeCode
         """
         reason = (
             "I have self-taught the syntax (Hard Skills), but I need the "
